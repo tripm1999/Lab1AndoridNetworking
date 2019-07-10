@@ -41,5 +41,14 @@
         android:layout_marginTop="10dp"
         android:text="Load image" />
 
+    <Button
+        android:id="@+id/btnbai4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnload"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Bai 4" />
+
 
 </RelativeLayout>
