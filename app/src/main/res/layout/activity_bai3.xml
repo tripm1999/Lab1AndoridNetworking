@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Bai3">
 
     <TextView
         android:id="@+id/tv_title"
@@ -12,10 +12,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="thread in android" />
+        android:text="Load image form sever using Asynctask" />
 
     <ImageView
-        android:id="@+id/img_android"
+        android:id="@+id/imgload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_title"
@@ -24,31 +24,22 @@
         android:src="@mipmap/ic_launcher" />
 
     <TextView
-        android:id="@+id/tv_message"
+        android:id="@+id/tvmessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/img_android"
+        android:layout_below="@+id/imgload"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="message" />
 
     <Button
-        android:id="@+id/btn_loadimage"
+        android:id="@+id/btnload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_message"
+        android:layout_below="@+id/tvmessage"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="Load image" />
-
-    <Button
-        android:id="@+id/btn_bai2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btn_loadimage"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:text="bài 2" />
 
 
 </RelativeLayout>
